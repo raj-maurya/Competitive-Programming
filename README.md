@@ -1,5 +1,5 @@
-hello-newworld
-==============
+Trying to learn coding :)
+=========================
 
 first test repository !
-hiii,, This tExt Iss fforr oonnllyy eexxppeeiimmeentt..
+Hello, and welcome !
