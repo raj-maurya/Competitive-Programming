@@ -1,5 +1,6 @@
-Trying to learn coding :)
+Trying hard to convert Caffeine into code :)
 =========================
 
-first test repository !
+ 
 Hello, and welcome !
+Some bit of programming and concepts...!!!
