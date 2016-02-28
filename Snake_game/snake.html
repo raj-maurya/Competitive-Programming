@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title> Snake Revenge</title>
+</head>
+<body>
+<script>
+
+var cols=26, rows=26;
+
+var empty=0, snake=1, fruit=2;
+
+var grid= {
+width: null,
+height: null,
+_grid: null,
+
+init: function(d,c, r){
+this.width = c;
+this.height = r;
+
+this._grid = [];
+
+for(var x=0; x<c; x++){
+this._grid.push([]);
+for(var y=0; y<r; y++){
+this,_grid[x].push(d);
+}
+}
+
+},
+
+set: function( val, x, y) {
+this._grid[x][y] =val;
+},
+get: function(x,y){
+return this._grid[x][y]; 
+}
+}
+
+var snake ={
+direction: null,
+last: null,
+_queue:null,
+
+init: function(d,x,y){
+this.direction =d;
+this._queue = [];
+this.insert(x,y);
+
+},
+
+insert: function(x,y)
+{
+this._queue.unshift({x:x,  y:y});
+this.last = this._queue[0];
+},
+
+remove: function(){
+return this._queue.pop();
+
+}
+}
+
+function setFood(){
+var empty = [];
+
+for(var x=0; x<grid.width; x++){
+for(var y=0  ; y< grid.height; y++){
+if(grid.get(x,y) === empty){
+empty.push(x:x, y:y});
+}
+}
+}
+var randpos = empty[Math.floor(Math.random()*empty.lenght)];
+grid.set(fruit, randpos.x, randpos.y);
+}
+
+
+var canvas, ctx, keystate, frames;
+
+function main(){
+canvas = document.createElement("canvas");
+canvas.width =cols*20;
+canvas.height = rows*20;
+ctx = canvas.getContext("2d");
+document.body.appendChild(canvas);
+
+frames=0;
+keystate =0;
+
+init();
+loop();
+
+}
+ 
+function init(){
+}
+
+function loop(){
+
+}
+
+function update(){
+
+}
+
+function draw(){
+
+}
+
+main();
+</script>
+
+</body>
+</html>
+
