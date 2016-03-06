@@ -1,0 +1,87 @@
+/*****************************************************************************
+ *                                                                           *
+ *                 -----------------------------------------                 *
+ *                               Write a C programme that accepts a string   *
+ * and print all the possible palindromes that can be generated using the    *
+ * letters of the string                                                     *
+ * Note: single characters are a palindrome                                  *
+ * Input  : I.1) A string of  characters                                     *
+ * Outputs: O.1) Total number of palindromes found                           *
+ *          O.2) Palindromes output on standard output                       *
+ *                                                                           *
+ * Note : duplicate palindromes are not allowed                              *
+ *        output need not be sorted                                          *
+ *                                                                           *
+ * Hint : A brute force algorithm will create all possible strings and then  *
+ *        check for palindromes. This will work for upto 7-8 character input.*
+ *        This may fetch upto 50% of marks.                                  *
+ *                                                                           *
+ *        You will need to write a permutations algorithm as well as a       *
+ *        combination algorithm                                              *
+ *        Our solution uses the algorithms published by tamu CSE dept.       *
+ *        The algorithms need to be modified to avoid duplicate generation   *
+ *        for efficiency. Alternately inefficient algorithms may choose to   *
+ *        store the result and remove duplicates later (a costly operation). *
+ *        Duplcates are because of characters repeating more than 4 times.   *
+ *                                                                           *
+ *        A better algorith will try to build all possible heads and tails   *
+ *        and then construct the palindrome using the remaining characters   *
+ *                                                                           *
+ * Hint : A better algorithm will be able to handle test t6 (amitabhbacchan) *
+ *        Test t7 is given for algorithms which are better than our solution *
+ *        There are more complex strings between test 6 and test 7           *
+ *                                                                           *
+ * Hint : The algorithms will be tested on increasing order of complex tests *
+ *                                                                           *
+ *                                                                           *
+ *****************************************************************************/
+
+/*****************************************************************************
+ *                                  Sample                                   *
+ *                                  ------                                   *
+ * The contest can be explained with certain sample inputs and outputs       *
+ *                                                                           *
+ *  Example 1: a string without duplicate characters                         *
+ *  I.1 = "abcdefgh"                                                         *
+ *  O.1 = 8 O.2 = a, b, c, d, e, f, g, h                                     *
+ *                                                                           *
+ *  Example 2: a string with two duplicate characters                        *
+ *  I.1 = "ababcdef"                                                         *
+ *  O.1 = 28 O.2 = a, b, c, d, e, f, aa, aba, aca, ada, aea, afa, bb, bab,   *
+ *                bcb, bdb, beb, bfb, abba, abcba, abdba, abeba, abfba,      *
+ *                baab, bacab, badab, baeab, bafab                           *
+ *                                                                           *
+ *  Example 3: A string with a character repeating 4 times                   *
+ *  I.1 = "aaaabcde"                                                         *
+ *  O.1 = 16 O.2 = a, b, c, d, e, aa, aaa, aba, aca, ada, aea, aaaa, aabaa,  *
+ *                 aacaa, aadaa, aaeaa                                       *
+ *                                                                           *
+ *  Example 4: A string with a character repeating 5 times                   *
+ *  I.1 = "aaaaabcd"                                                         *
+ *  O.1 = 14 O.2 = a, b, c, d, aa, aaa, aba, aca, ada, aaaa, aaaaa, aabaa,   *
+ *                 aacaa, aadaa                                              *
+ *                                                                           *
+ *  Example 5: a string with three duplicate characters                      *
+ *  I.1 = "abcabcde"                                                         *
+ *  O.1 = 62 O.2 = a, b, c, d, e, aa, aba, aca, ada, aea, bb, bab, bcb, bdb, *
+ *                 beb, cc, cac, cbc, cdc, cec, abba, abcba, abdba, abeba,   *
+ *                 baab, bacab, badab, baeab, acca, acbca, acdca, aceca,     *
+ *                 caac, cabac, cadac, caeac, bccb, bcacb, bcdcb, bcecb,     *
+ *                 cbbc, cbabc, cbdbc, cbebc, abccba, abcdcba, abcecba,      *
+ *                 acbbca, acbdbca, acbebca, baccab, bacdcab, bacecab,       *
+ *                 bcaacb, bcadacb, bcaeacb, cbaabc, cbadabc, cbaeabc,       *
+ *                 cabacb, cabdbac, cabebac                                  *
+ *                                                                           *
+ *  The output files have been sorted to allow comparison                    *
+ *                                                                           *
+ *  Example 6 will be one of the samples used for performance testing        *
+ *  Example 7 takes significant ampount of time (minutes) for our solution   *
+ *                                                                           *
+ * The tests would cover many more complex cases                             *
+ * There will be some tests to determine how much length your algorithm can  *
+ * process in 2 minutes on our machine                                       *
+ *                                                                           *
+ *****************************************************************************/
+
+
+
