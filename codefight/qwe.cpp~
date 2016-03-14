@@ -1,0 +1,28 @@
+int ThreeInOne(std::vector<int> arr, char operato, int second) {
+int t=arr.size();
+    int p=0;
+    for(int k=0; k<t; k++)
+    {
+        p=p+arr[k];
+    }
+    int o= p/t;
+    int z=o;
+    if(operato=='+')
+    {
+        z=z+second;
+    }
+    else if(operato =='-')
+    {
+        z=z-second;
+    }
+    else if(operato=='*')
+    {
+        z=int(z*second);
+    }
+    else
+    {
+        z=z/second;
+    }
+    return z;
+}
+
