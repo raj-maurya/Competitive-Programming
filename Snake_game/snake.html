@@ -4,6 +4,20 @@
 
 <meta charset="UTF-8">
 <title> Snake Revenge</title>
+<style type="text/css">
+	canvas {
+		display: block;
+		position: absolute;
+		border: 5px solid #000;
+		margin: auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+
+	}
+</style>
 </head>
 <body>
 <script>
@@ -11,6 +25,8 @@
 var cols=26, rows=26;
 
 var empty=0, snake=1, fruit=2;
+//direction
+var left=0, up=1, right=2, down=3;
 
 var grid= {
 width: null,
@@ -97,18 +113,43 @@ loop();
 }
  
 function init(){
+	grid.init(EMPTY, cols, rows);
+
+	var sp=(x:Math.floor(cols/2),y:rows-1);
+	snake.init(up, sp.x, sp.y);
+	grid.set(snake, sp.x, sp.y);
+	setFood();
 }
 
 function loop(){
-
+update();;
+draw();
+window.requestAnimationFrame(loop,canvas);
 }
 
 function update(){
+	frames++;
 
 }
 
 function draw(){
-
+var tw= canvas.width/grid.width;
+var th = canvas.height/grid.height;
+for(var x=0; x<grid.width; x++){
+for(var y=0  ; y< grid.height; y++){
+switch (grid.get(x,y)){
+	case empty:
+	ctx.fillStyle="#ffff";
+	break;
+	case snake:
+	ctx.fillStyle="#0ff";
+	break;
+	case fruit: 
+	ctx.fillStyle="#f00" 
+}
+ctx.fillRect(x*tw, y.th, tw, th);
+}
+}
 }
 
 main();
