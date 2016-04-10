@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-	/* code */
+	/* 
 	struct node{
 		int data;
 		struct node* next;
@@ -53,4 +53,61 @@ int main()
  insert_last(node, 8);
  print(node); 
  return 0;
-}	
+}	*/
+
+
+
+// same inpplementation Using different format of pointers "*"
+ struct Node {
+	int data;
+	Node* next;
+};
+
+// only for the 1st Node
+void initNode(struct Node *head,int n){
+	head->data = n;
+	head->next =NULL;
+}
+
+// apending
+void addNode(struct Node *head, int n) {
+	Node *newNode = new Node;
+	newNode->data = n;
+	newNode->next = NULL;
+
+	Node *cur = head;
+	while(cur) {
+		if(cur->next == NULL) {
+			cur->next = newNode;
+			return;
+		}
+		cur = cur->next;
+	}
+}
+void display(struct Node *head) {
+	Node *list = head;
+	while(list) {
+		cout << list->data << " ";
+		list = list->next;
+	}
+	cout << endl;
+	cout << endl;
+}
+
+	int main() 
+{
+	//struct Node *newHead;
+	struct Node *head = new Node;
+	
+	initNode(head,10);
+	display(head);
+
+	addNode(head,20);
+	display(head);
+
+	addNode(head,30);
+	display(head);
+
+	addNode(head,35);
+	display(head);
+}
