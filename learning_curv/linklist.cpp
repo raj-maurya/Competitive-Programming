@@ -40,6 +40,21 @@ void insert_front(struct node*& node, int dat){
 	first_append->next=node;
 	node=first_append;
 }
+void insert_between(struct node* node, int dat){
+
+}
+struct node* search_node(struct node* node, int dat){
+	struct node *search = node;
+	while(search){
+		if(search->data==dat){
+			return search;
+			cout<<"Node is"<< search;
+		}
+		search=search->next;
+	}
+	cout<<"NO node"<<dat <<" in the list";
+
+}
 void print(struct node* node)
 {
 	struct node* current=node;
@@ -63,6 +78,9 @@ int main()
  print(node); 
  insert_front(node, 9);
  print(node);
+  insert_last(node, 3);
+ print(node); 
+ search_node(node, 9);
  return 0;
 }	
 
