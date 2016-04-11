@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-	/* 
+	
 	struct node{
 		int data;
 		struct node* next;
@@ -31,6 +31,15 @@ using namespace std;
 		}
 	}
 
+void insert_front(struct node*& node, int dat){
+	struct node* first_append;
+	first_append= new (struct node);
+	first_append->data= dat;
+	//first_append->next=NULL;
+	//struct node* current =node;
+	first_append->next=node;
+	node=first_append;
+}
 void print(struct node* node)
 {
 	struct node* current=node;
@@ -44,7 +53,7 @@ void print(struct node* node)
 int main()
 {
 	struct node* node = NULL;
- init_node(node, 8);
+ init_node(node, 5);
  print(node);
  insert_last(node, 1);
  print(node);
@@ -52,11 +61,13 @@ int main()
  print(node);
  insert_last(node, 8);
  print(node); 
+ insert_front(node, 9);
+ print(node);
  return 0;
-}	*/
+}	
 
 
-
+/*
 // same inpplementation Using different format of pointers "*"
  struct Node {
 	int data;
@@ -111,3 +122,4 @@ void display(struct Node *head) {
 	addNode(head,35);
 	display(head);
 }
+*/
