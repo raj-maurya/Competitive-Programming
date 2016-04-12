@@ -40,7 +40,18 @@ void insert_front(struct node*& node, int dat){
 	first_append->next=node;
 	node=first_append;
 }
-void insert_between(struct node* node, int dat){
+void insert_between(struct node* node, int dat, int pos){
+	struct node* mid_insert;
+	mid_insert= new(struct node);
+	mid_insert->data=dat;
+	struct node* mid=node;
+	struct node* mid_next=node;
+	for(int i=1; i<pos-1; i++){
+		mid=mid->next;
+	}
+	mid_next=mid->next;
+	mid->next=mid_insert;
+	mid_insert->next=mid_next;
 
 }
 struct node* search_node(struct node* node, int dat){
@@ -81,6 +92,8 @@ int main()
   insert_last(node, 3);
  print(node); 
  search_node(node, 9);
+ insert_between(node, 2,5);
+ print(node);
  return 0;
 }	
 
