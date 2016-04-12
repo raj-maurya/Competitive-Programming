@@ -48,11 +48,11 @@ struct node* search_node(struct node* node, int dat){
 	while(search){
 		if(search->data==dat){
 			return search;
-			cout<<"Node is"<< search;
+			//cout<<"Node is"<< search;
 		}
 		search=search->next;
 	}
-	cout<<"NO node"<<dat <<" in the list";
+	cout<<"NO node "<<dat <<" in the list";
 
 }
 void print(struct node* node)
