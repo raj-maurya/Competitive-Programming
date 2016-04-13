@@ -66,6 +66,15 @@ struct node* search_node(struct node* node, int dat){
 	cout<<"NO node "<<dat <<" in the list";
 
 }
+//delete a node from front
+void delete_front(struct node* node){
+	struct node* track= node;
+	
+	node=node->next;
+	delete track;
+	node=track;
+
+}
 void print(struct node* node)
 {
 	struct node* current=node;
@@ -93,6 +102,8 @@ int main()
  print(node); 
  search_node(node, 9);
  insert_between(node, 2,5);
+ print(node);
+ delete_front(node);
  print(node);
  return 0;
 }	
