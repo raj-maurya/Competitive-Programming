@@ -1,0 +1,24 @@
+<body>
+	<canvas id="my_canvas"></canvas>
+</body>
+<script type="text/javascript">
+	var canvas= null;
+	var context = null;
+   var onImageLoad= function{
+   	console.log("Image");
+   	context.drawImage(img, 192, 192);
+   };
+	var setup = function(){
+		canvas= document.getElementById("my_canvas");
+		context= canvas.getContext('2d');
+		canvas.width = window.innerWidth;
+		canvas.height=window.innerHeight;
+		img= new Image();
+		img.onload= onImageLoad;
+		img.src="logo_114.png";
+
+	};
+
+	
+	setup();
+</script>
