@@ -25,10 +25,11 @@ using namespace std;
 			if (current->next==NULL)
 			{
 				current->next=append;
-				return;
+				
 			}
 			current=current->next;
 		}
+		return node;
 	}
 
 void insert_front(struct node*& node, int dat){
