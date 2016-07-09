@@ -1,0 +1,12 @@
+n=6   #input total months
+m=3   #input living months
+
+t_month,live_month=n,m
+emp_lists = [0]*(t_month+1)
+#making empty list
+start,emp_lists[0] = 2,1  #initializing default values
+for rabbits in range(start, n+1):
+    emp_lists[rabbits] = emp_lists[rabbits- start]+emp_lists[rabbits-1]-emp_lists[rabbits-live_month-1]
+
+print emp_lists[t_month]+emp_lists[t_month-start+1]  #adding last two evaluated values
+
