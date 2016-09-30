@@ -440,13 +440,6 @@
         }, {
             "val": "Change color of the label by adding one of the following: default, warning, info, danger, primary.",
             "key": ".label-*"
-        }],
-        "Labels": [{
-            "val": "Applies default styling to labels.",
-            "key": ".label"
-        }, {
-            "val": "Change color of the label by adding one of the following: default, warning, info, danger, primary.",
-            "key": ".label-*"
         }]
 
     }
