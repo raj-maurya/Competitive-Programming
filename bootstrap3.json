@@ -406,26 +406,104 @@
             "val": "Class added to each li in a list-group.",
             "key": ".list-group-item"
         }],
-        "Labels": [{
-            "val": "Applies default styling to labels.",
-            "key": ".label"
+        "Media object": [{
+            "val": "Media components are image heading and description text items. Blog comments, portfolio projects, album covers, etc.",
+            "key": ".media"
         }, {
-            "val": "Change color of the label by adding one of the following: default, warning, info, danger, primary.",
-            "key": ".label-*"
+            "val": "The class added for the media description copy block.",
+            "key": ".media-body"
+        }, {
+            "val": "The class applied to a heading in a media component.",
+            "key": ".media-heading"
+        }, {
+            "val": "Nested media lists would be good used as comments.",
+            "key": ".media-list"
+        }, {
+            "val": "Class added to a media component image.",
+            "key": ".media-object"
         }],
-        "Labels": [{
-            "val": "Applies default styling to labels.",
-            "key": ".label"
+        "Modal": [{
+            "val": "The parent wrapper class of modal content.",
+            "key": ".modal"
         }, {
-            "val": "Change color of the label by adding one of the following: default, warning, info, danger, primary.",
-            "key": ".label-*"
+            "val": "Added by the modal javascript to make the area around the modal clickable to hide the modal.",
+            "key": ".modal-backdrop"
+        }, {
+            "val": "The modal body content class : Header - Body - Footer.",
+            "key": ".modal-body"
+        }, {
+            "val": "modal-content contains modal-body, modal-header, and modal-footer.",
+            "key": ".modal-content"
+        }, {
+            "val": "The secondary wrapper class of the entire modal content.",
+            "key": ".modal-dialog"
+        }, {
+            "val": "The footer of the modal that contains action buttons or help text.",
+            "key": ".modal-footer"
+        }, {
+            "val": "The header section of the modal that contains the title and close button.",
+            "key": ".modal-header"
+        }, {
+            "val": "Makes a modal wider.",
+            "key": ".modal-lg"
+        }, {
+            "val": "Javascript adds this class to the body tag to prevent scrolling with the modal is open.",
+            "key": ".modal-open"
         }],
-        "Labels": [{
-            "val": "Applies default styling to labels.",
-            "key": ".label"
+        "Navbar": [{
+            "val": "Used in the navbar to make the cheeseburger mobile menu.",
+            "key": ".icon-bar"
         }, {
-            "val": "Change color of the label by adding one of the following: default, warning, info, danger, primary.",
-            "key": ".label-*"
+            "val": "Navigation header class.",
+            "key": ".navbar"
+        },{
+            "val": "Most navbars contain a logo or brand. This class is added to the anchor.",
+            "key": ".navbar-brand"
+        },{
+            "val": "Vertically aligns a button inside a navbar.",
+            "key": ".navbar-btn"
+        },{
+            "val": "The content inside the navbar that will be hidden with the mobile nav toggle is enabled.",
+            "key": ".navbar-collapse"
+        },{
+            "val": "The default navbar configuration styles.",
+            "key": ".navbar-default"
+        },{
+            "val": "Fixes the footer to the bottom of the window.",
+            "key": ".navbar-fixed-bottom"
+        },{
+            "val": "Affixes the navbar to the top of the window.",
+            "key": ".navbar-fixed-top"
+        },{
+            "val": "Wrap form elements with this class so that they are vertically center.",
+            "key": ".navbar-form"
+        },{
+            "val": "This class contains the brand image or text and the mobile toggle icons.",
+            "key": ".navbar-header"
+        },{
+            "val": "Modify the look of the navbar by inverting the colors.",
+            "key": ".navbar-inverse"
+        },{
+            "val": "Align nav links, forms, buttons, or text, using the .navbar-left or .navbar-right utility classes. Both classes will add a CSS float in the specified direction.",
+            "key": ".navbar-left"
+        },{
+            "val": "Use the .navbar-link class to add the proper colors for the default and inverse navbar options.",
+            "key": ".navbar-link"
+        },{
+            "val": "The wrapper class of the navigation elements excluding the brand.",
+            "key": ".navbar-nav"
+        },{
+            "val": "Align nav links, forms, buttons, or text, using the .navbar-left or .navbar-right utility classes. Both classes will add a CSS float in the specified direction.",
+            "key": ".navbar-right"
+        },{
+            "val": "Create a full-width navbar that scrolls away with the page by adding .navbar-static-top and include a .container or .container-fluid to center and pad navbar content.",
+            "key": ".navbar-static-top"
+        },{
+            "val": "Wrap strings of text in an element with .navbar-text, usually on atag for proper leading and color.",
+            "key": ".navbar-text"
+        },{
+            "val": "The class the wraps the mobile toggle icon (cheeseburger icon).",
+            "key": ".navbar-toggle"
         }],
         "Labels": [{
             "val": "Applies default styling to labels.",
