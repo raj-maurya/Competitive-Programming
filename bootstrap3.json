@@ -61,7 +61,7 @@
             "val": "add width and height to center a block level element.",
             "key": ".center-block"
         }, {
-            "val": "Used to clear floats by adding .cleafix to the parent element. It adds a pseudo element with clear:both property.	",
+            "val": "Used to clear floats by adding .cleafix to the parent element. It adds a pseudo element with clear:both property.",
             "key": ".clearfix"
         },{
             "val": "Use the generic close icon for dismissing content like modals and alerts.",
@@ -161,7 +161,7 @@
             "val": "This class sets the spacing and size of the button.",
             "key": ".btn"
         }, {
-            "val": "By default buttons are inline this class makes it block to span the full width of its parent.	",
+            "val": "By default buttons are inline this class makes it block to span the full width of its parent.",
             "key": ".btn-block"
         }, {
             "val": "Defaults to a red background button.",
@@ -305,7 +305,7 @@
             "val": "Tables contextual class to change row color.",
             "key": ".danger"
         }, {
-            "val": "Tables contextual class to change row color" target="_blank" href="http://getbootstrap.com/css/#tables-contextual-classes",
+            "val": "Tables contextual class to change row color",
             "key": ".info"
         }, {
             "val": "Tables contextual class to change row color.",
