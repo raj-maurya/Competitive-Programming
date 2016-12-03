@@ -2,7 +2,7 @@ Trying hard to convert Caffeine into code :)
 =========================
 
 
-Some bit of programming and concepts...!!!
+Some bit of programming ...!!!
 ###Hackerrank Problems
 ### Hackerearth Problem
 ###Rosalind Problems
