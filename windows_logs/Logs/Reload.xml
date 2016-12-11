@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<WindowsRE version="1.0">
+    <WinreBCD id="{40199fc3-e5f5-11e3-a262-977a7041691c}"/>
+    <WinreLocation path="\Recovery\40199fc3-e5f5-11e3-a262-977a7041691c" id="57157" offset="368050176" guid="{00000000-0000-0000-0000-000000000000}"/>
+    <ImageLocation path="" id="0" offset="0" guid="{00000000-0000-0000-0000-000000000000}"/>
+    <OsInstallLocation path="" id="0" offset="0" guid="{00000000-0000-0000-0000-000000000000}" index="0"/>
+    <CustomImageLocation path="" id="0" offset="0" guid="{00000000-0000-0000-0000-000000000000}" index="0"/>
+    <InstallState state="1"/>
+    <OsInstallAvailable state="0"/>
+    <CustomImageAvailable state="0"/>
+    <IsAutoRepairOn state="1"/>
+    <WinREStaged state="0"/>
+    <OperationParam path=""/>
+    <OsBuildVersion path="9200.16384.amd64fre.win8_rtm.120725-1247"/>
+    <OemTool state="0"/>
+    <BootKey state="0"/>
+    <IsServer state="0"/>
+    <ScheduledOperation state="5" status="1223"/>
+    <BackupLaunch state="0" status="0"/>
+    <BackupComplete state="0" status="0"/>
+    <BackupResult status="0"/>
+    <MachineGuid id="{00000000-0000-0000-0000-000000000000}"/>
+    <UserGuid id="{00000000-0000-0000-0000-000000000000}"/>
+    <OptIn state="0"/>
+</WindowsRE>
