@@ -2,11 +2,11 @@ Trying hard to convert Caffeine into code :)
 =========================
 
 
-Some bit of programming ...!!!
- - ###Hackerrank Problems
- - ### Hackerearth Problem
- - ###Rosalind Problems
- - ###Codechef Problems
+###Some bit of programming ...!!!
+ - Hackerrank Problems
+ - Hackerearth Problem
+ - Rosalind Problems
+ - Codechef Problems
 
 
 
