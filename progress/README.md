@@ -286,7 +286,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
     - [X] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
     - [X] Cracking The Coding Interview Set 1:
         - [X] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
-        - [ ] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
+        - [X] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [ ] How to Get a Job at the Big 4:
         - [ ] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [ ] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
