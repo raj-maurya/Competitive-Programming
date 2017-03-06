@@ -299,7 +299,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
         - [X] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
         - [X] [Cracking the Coding Interview with Author Gayle Laakmann McDowell (video)](https://www.youtube.com/watch?v=aClxtDcdpsQ)
     - [X] How to Get a Job at the Big 4:
->>>>>>> 2e61d51d0e8d1abc6fbd4683e4c3f105fc2136c8
+
         - [X] ['How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
     - [X] [Failing at Google Interviews](http://alexbowe.com/failing-at-google-interviews/)
 
@@ -340,14 +340,14 @@ This is a shorter list than what I used. This is abbreviated to save you time.
     - recommended in Google candidate coaching
     - this is a good warm-up for Cracking the Coding Interview
     - not too difficult, most problems may be easier than what you'll see in an interview (from what I've read)
-- [ ] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
+- [X] [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Programming/dp/0984782850/)
     - answers in Java
     - recommended on the [Google Careers site](https://www.google.com/about/careers/how-we-hire/interview/)
     - If you see people reference "The Google Resume", it was a book replaced by "Cracking the Coding Interview".
 
 If you have tons of extra time:
 
-- [ ] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [X] [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
     - all code is in C++, very good if you're looking to use C++ in your interview
     - a good book on problem solving in general.
 
