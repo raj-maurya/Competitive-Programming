@@ -5,7 +5,7 @@ Trying hard to convert Caffeine into code :)
 ### Some bit of programming ...!!!
  - Hackerrank Problems [https://www.hackerrank.com/rajkmaurya111]
  - Hackerearth Problem [https://www.hackerearth.com/@rajkmaurya111]
- - Rosalind Problems
+ - Rosalind Problems   [http://rosalind.info/users/rajkmaurya111/]
  - Codechef Problems
 
 
