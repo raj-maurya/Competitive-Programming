@@ -27,3 +27,5 @@ Trying hard to convert Caffeine into code :)
  - https://drive.google.com/drive/folders/0B1Wzf8eTK3LTYWtqOGlnQldTV2c   [ Linux Books ]
  - https://drive.google.com/drive/folders/0B_qpgvDTe8kraTQ2QkM2S19tQWs   [ English drama ]
  - https://drive.google.com/drive/folders/0B1W3DeV5S5BELXZRajkteW83WHM   [ Head first programming ]
+ - https://drive.google.com/drive/folders/0B2iEK7PB5AR-b01obXBHWHVHQzg   [Prog. Books]
+ - https://drive.google.com/drive/folders/0ByWO0aO1eI_MV0lhX1dkUlQ3YUk   [ PHP development ]
